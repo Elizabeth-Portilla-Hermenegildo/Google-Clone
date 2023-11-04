@@ -169,7 +169,7 @@ main .botones .SegundoBoton{
     border-radius: 5px;
     background-color: rgb(237, 237, 237);
 }
-main .botones  .SegundoBoton a{
+main .botones  .SegundoBoton .Suerte{
     font-color: rgb(231, 231, 231);
 }
 main .botones .SegundoBoton:hover{
