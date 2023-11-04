@@ -1,0 +1,244 @@
+body{
+    margin: 0; /* margen del elemento */
+    padding: 0; /* padding - margen hacia adentro*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* ************************************************ */
+/* Navegacion */
+header{
+    width: 100%;
+    height: 80px;
+}
+
+header nav{
+    /* Nos avilita usar todo lo necesario para movernos */
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-seccionDerecha{
+    width: 250px;
+    height: auto;
+    /* Eliminar puntos de la lista */
+    list-style: None;
+    display: flex;
+    justify-content: center;
+    /* Centrado verticalemente */
+    align-items: center;   
+}
+header nav .gmail:hover{
+    text-decoration: underline;
+}
+header nav .Imagenes:hover{
+    text-decoration: underline;
+}
+
+
+
+
+a{
+    /* Eliminar linea debajo del texto */
+    text-decoration: None;
+
+}
+nav .nav-seccionDerecha a{
+    color: black;
+    /* Separa los elementos, agregar margen a la derecha de los elementos, como un espacio */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px; 
+}
+
+nav .nav-seccionDerecha .Menu{
+    /*Meter imagen de fondo, agregar icono desde css  */
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    /*Que la imagen este contenida en el elemento mas grande */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    /* Para que imagenes no se repitan */
+    background-repeat: no-repeat;
+}
+
+
+/* Editar nuestra imagenes */
+nav .nav-seccionDerecha img{
+    border-radius: 80%;
+    /* Cambiar tamaño de la imagen */
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Cajita que contiene mi logo */
+main .main-logo{
+    width: 690px;
+    /* Centrar absolutamente tdo */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main .main-logo img{
+    height: 100px;
+}
+
+main .main-input{
+    width: 700px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+main  .main-imput-container{
+    /* anchoBorde || borde-estilo ||bordeColor */
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 600px;
+    height: 48px;
+
+}
+
+main .main-input input{
+    height: 45px;
+    width: 440px;
+    border: none;
+    /* Quitar borde al poner cursosr*/
+    outline: none;
+}
+main .main-imput-container:hover{
+    box-shadow: 2px 2px 2px 2px rgba(227, 225, 225, 0.461);
+}
+
+main .main-input .search-icon{
+    background-image:  url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 7%;
+    background-repeat: no-repeat;
+    width: 20px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-right: 1px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    padding-left: 7%;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+}
+
+main .botones{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+main .botones .PrimerBoton{
+    border: 0px solid #dedede;
+    height: 35px;
+    width: 140px;
+    border-radius: 5px;
+    margin-right: 30px;
+    background-color: rgb(237, 237, 237);
+    
+
+}
+main .botones .PrimerBoton:hover{
+    box-shadow: 1px 1px 1px 1px rgba(126, 126, 126, 0.461);
+}
+
+main .botones .SegundoBoton{
+    border: 0px solid #cecece;
+    height: 35px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+
+}
+main .botones .SegundoBoton:hover{
+    box-shadow: 1px 1px 1px 1px rgba(126, 126, 126, 0.461);
+}
+main .Mensaje{
+    margin-bottom: 10px;
+
+}
+
+main p .españolLat:hover{
+    text-decoration: underline;
+}
+
+footer{  
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    background-color: rgb(231, 231, 231);
+}
+footer .Mexico{
+    color: rgb(117, 113, 113);
+    width: 100%;
+    height:35px;
+    font-size: 16px;
+    background-color: rgb(231, 231, 231);
+    padding-bottom: None;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+footer .Mexico .Palabra{
+    padding-top: 4px;
+    padding-left: 40px;
+}
+
+footer nav{
+    margin: 0;
+    padding: 0 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer nav .SeccionInferior{
+    height: 50px;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+}
+
+footer nav .SeccionInferiorDos{
+    height: 50px;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+footer nav a{
+    color: #656669;
+    margin-right: 25px;
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+}
