@@ -9,3 +9,6 @@ Esta página web fue creada con:
 
 Además, se incluyeron **Google Fonts** para personalizar la fuente.
 
+Vista del proyecto:
+
+![Captura de pantalla de la página web](/Images/Captura%20de%20pantalla.png)
